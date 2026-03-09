@@ -1,0 +1,78 @@
+# Kodi Media Center language file
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+
+msgctxt "#32000"
+msgid "Browser control"
+msgstr "Browser control"
+
+msgctxt "#32001"
+msgid "Enable browser control"
+msgstr "Enable browser control"
+
+msgctxt "#32002"
+msgid "Control Ace Stream in Kodi from browser on local network at device_IP:port."
+msgstr "Control Ace Stream in Kodi from browser on local network at device_IP:port."
+
+msgctxt "#32003"
+msgid "Port"
+msgstr "Port"
+
+msgctxt "#32004"
+msgid "Port for browser connection. Address: device_IP:port.[B]If the port was changed, apply settings and reopen this screen to update the QR code.[/B]"
+msgstr "Port for browser connection. Address: device_IP:port.[B]If the port was changed, apply settings and reopen this screen to update the QR code.[/B]"
+
+msgctxt "#32005"
+msgid "Ace Stream Engine"
+msgstr "Ace Stream Engine"
+
+msgctxt "#32006"
+msgid "Engine IP address"
+msgstr "Engine IP address"
+
+msgctxt "#32007"
+msgid "IP address of the device where Ace Stream Engine is running (e.g. 127.0.0.1)."
+msgstr "IP address of the device where Ace Stream Engine is running (e.g. 127.0.0.1)."
+
+msgctxt "#32008"
+msgid "Engine Port"
+msgstr "Engine Port"
+
+msgctxt "#32009"
+msgid "Port of the Ace Stream Engine (default is 6878)."
+msgstr "Port of the Ace Stream Engine (default is 6878)."
+
+msgctxt "#32010"
+msgid "Show QR code"
+msgstr "Show QR code"
+
+msgctxt "#32011"
+msgid "Scan the QR code with your phone or open the address in any browser on the same network to control Ace Stream playback remotely."
+msgstr "Scan the QR code with your phone or open the address in any browser on the same network to control Ace Stream playback remotely."
+
+msgctxt "#32012"
+msgid "Could not get device IP"
+msgstr "Could not get device IP"
+
+msgctxt "#32013"
+msgid "Press any button to close"
+msgstr "Press any button to close"
+
+msgctxt "#32016"
+msgid "Engine returned no session data"
+msgstr "Engine returned no session data"
+
+msgctxt "#32017"
+msgid "Error: %s"
+msgstr "Error: %s"
+
+msgctxt "#32018"
+msgid "Stream unavailable"
+msgstr "Stream unavailable"
+
+msgctxt "#32019"
+msgid "Engine unavailable"
+msgstr "Engine unavailable"

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="service.aceviewer" name="AceViewer" version="2.0.0" provider-name="dkazlovich">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="login"/>
+  <extension point="xbmc.python.pluginsource" library="default.py"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">AceViewer — Ace Stream browser control</summary>
+    <description lang="en">Control Ace Stream playback from any browser on your local network via QR code or direct link.</description>
+    <platform>all</platform>
+    <source>https://github.com/dkazlovich/service.aceviewer</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>

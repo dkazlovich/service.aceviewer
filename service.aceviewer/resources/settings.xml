@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings version="2">
+  <section id="general">
+    <category id="web_control" label="32000">
+      <group id="1">
+        <setting id="web_control_enabled" type="boolean" label="32001" help="32002">
+          <default>false</default>
+          <control type="toggle"/>
+        </setting>
+        <setting id="web_control_port" type="integer" label="32003" help="32004">
+          <default>57860</default>
+          <constraints>
+            <minimum>1024</minimum>
+            <maximum>65535</maximum>
+          </constraints>
+          <control type="edit" format="integer"/>
+          <dependencies>
+            <dependency type="enable" setting="web_control_enabled" operator="is">true</dependency>
+          </dependencies>
+        </setting>
+        <setting id="show_qr" type="action" label="32010" help="32011">
+          <control type="button" format="action">
+          <data>RunPlugin(plugin://service.aceviewer/?mode=show_qr)</data>
+          </control>
+          <dependencies>
+          <dependency type="enable" setting="web_control_enabled" operator="is">true</dependency>
+          </dependencies>
+        </setting>
+      </group>
+    </category>
+
+    <category id="ace_engine" label="32005">
+      <group id="2">
+        <setting id="ace_engine_ip" type="string" label="32006" help="32007">
+          <default>127.0.0.1</default>
+          <control type="edit" format="string"/>
+        </setting>
+        <setting id="ace_engine_port" type="integer" label="32008" help="32009">
+          <default>6878</default>
+          <constraints>
+            <minimum>1</minimum>
+            <maximum>65535</maximum>
+          </constraints>
+          <control type="edit" format="integer"/>
+        </setting>
+      </group>
+    </category>
+  </section>
+</settings>
