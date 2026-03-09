@@ -5,6 +5,10 @@
 ![Platform](https://img.shields.io/badge/platform-all-lightgrey)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
+<p align="center">
+  <img src="icon.png" width="120" alt="AceViewer">
+</p>
+
 A lightweight Kodi service addon that lets you control Ace Stream playback from any browser on your local network — no remote needed. Pure Python, no dependencies, minimal resource usage.
 
 ## Features
