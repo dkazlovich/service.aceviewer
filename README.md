@@ -18,7 +18,11 @@ A lightweight Kodi service addon that lets you control Ace Stream playback from 
 
 ## Screenshots
 
-> _Add screenshots here_
+<p>
+  <img src="screenshots/1.jpg" width="250">
+  <img src="screenshots/2.jpg" width="250">
+  <img src="screenshots/3.jpg" width="250">
+</p>
 
 ## Requirements
 
