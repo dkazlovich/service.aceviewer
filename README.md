@@ -27,7 +27,7 @@ A lightweight Kodi service addon that lets you control Ace Stream playback from 
 ## Requirements
 
 - Kodi 20 (Nexus) or later
-- [Ace Stream Engine](https://docs.acestream.net) running on the same or another device on your network
+- **Ace Stream Engine** (official or unofficial client) running on the same or another device on your network
 - No external Python dependencies — pure Python addon
 
 ## Installation
